@@ -45,8 +45,13 @@ img{
     }
 
 .navbar-brand img{
-    width: 80px;
-    height: 100px;
+    width: 55px;
+    height: 90px;
+}
+
+nav.navbar ul.nav li {
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	background-color: blue;
 }
 
 /* search form  */ 
