@@ -16,7 +16,28 @@ body {
   background-size: cover;
 }
 
+.centrado{text-align:left;
+         font-size:xx-large;
+         color: #00829B;
+          padding:200px;
+          font-weight:500;
+          display: table-cell;
+          vertical-align: middle;
+         text-indent: 100px;
+        }
 
+   
+       .style{
+         position:absolute; 
+   
+         background-size: cover;
+         top:500px;
+          left:1198px;
+         visibility:visible;
+          z-index:1;
+        }
+
+		
 
     
 
