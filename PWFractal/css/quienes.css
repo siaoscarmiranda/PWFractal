@@ -20,18 +20,31 @@ body {
          font-size:xx-large;
          color: #00829B;
           padding:200px;
-          font-weight:500;
-          display: table-cell;
-          vertical-align: middle;
-         text-indent: 100px;
+          white-space: normal;
+         
         }
 
+        .center2{text-align:center;
+          font-size:xx-large;
+          color: #00829B; 
+         }
+
+        p.center {text-align: center;
+          text-decoration: underline;
+          letter-spacing: 15px;
+          font-size:xx-large;
+          color: #00829B;
+          padding:200px;
+          font-weight: bold;
+          font-size: 45px;
+          text-transform: uppercase;
+          text-decoration: underline;
+          }
    
        .style{
          position:absolute; 
-   
          background-size: cover;
-         top:500px;
+         top:1000px;
           left:1198px;
          visibility:visible;
           z-index:1;
