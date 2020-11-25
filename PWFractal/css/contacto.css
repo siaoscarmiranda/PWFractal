@@ -42,6 +42,9 @@ body {
     text-decoration: none;
   
 }
+.navbar{
+  height: 75px;
+}
 
 
 .navbar.navbar-inverse .navbar-brand {
@@ -98,7 +101,7 @@ img{
 
 .navbar-brand img{
     width: 35px;
-    height: 70px;
+    height: 60px;
 }
 
 /* search form  */ 
