@@ -8,12 +8,16 @@
 
 
 body {
-    background-color:#caccd1;
+    background-image:url(/PWFractal/img/FONDO.jpg);
+    background-attachment: fixed;
     color: #000;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    background-size: cover;
 }
+
+ 
 
     
 .particles-js {
