@@ -42,7 +42,11 @@ p.center {text-align: center;
             top:40px
     
    }
-   
+
+   .center4{text-align:center;
+    font-size:xx-large;
+    color: #00829B; 
+   }
 .centrado{text-align:justify;
          font-size:x-large;
          color: #00829B;
