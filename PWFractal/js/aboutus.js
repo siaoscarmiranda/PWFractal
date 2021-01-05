@@ -1,8 +1,4 @@
 
-
-
-
-
 // document.addEventListener("DOMContentLoaded", function(event) { 
 
   var slides = document.querySelectorAll("#slides .slide");
@@ -31,3 +27,7 @@
    
     
   // });
+
+  window.onload = function(){
+    $('#onload').fadeOut;
+  }
