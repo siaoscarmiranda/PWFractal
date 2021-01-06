@@ -89,7 +89,10 @@ body{
 }
 
 
-
+.lfra{
+  width:450px;
+  height:200px;
+}
 
 
 .card__heading{
