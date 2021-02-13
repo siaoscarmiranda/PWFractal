@@ -256,7 +256,7 @@ section .section-title {
 }
 
 .backside .card a {
-    font-size: 18px;
+    font-size: 40px;
     color: #007b5e !important;
 }
 
@@ -268,7 +268,7 @@ section .section-title {
 .frontside .card .card-body img {
     width: 150px;
     height: 150px;
-    border-radius: 70%;
+    border-radius: 90%;
 }
 
 .section-title h1 {
@@ -285,7 +285,7 @@ section .section-title {
 *{padding: 0; margin: 0; box-sizing: border-box;}
 body{height: 900px;}
 header {
-	background: url('https://c0.wallpaperflare.com/preview/276/689/300/mexico-mexico-city-ciudad-de-mexico-people.jpg');
+	background: url('/PWFractal/img/fachadabellasamaria.jpg');
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -475,4 +475,13 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	.gallery-item {
 		margin: 0;
 	}
+}
+
+.heading{
+  font-family:'Oswald',sans-serif;
+}
+
+.flogo{
+  width:345px;
+  height:150px;
 }
