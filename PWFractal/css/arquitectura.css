@@ -285,7 +285,7 @@ section .section-title {
 *{padding: 0; margin: 0; box-sizing: border-box;}
 body{height: 900px;}
 header {
-	background: url('https://c0.wallpaperflare.com/preview/276/689/300/mexico-mexico-city-ciudad-de-mexico-people.jpg');
+	background: url('https://hipertextual.com/files/2017/03/wallhaven-443990.jpg');
 	text-align: center;
 	width: 100%;
 	height: auto;
@@ -385,4 +385,14 @@ button.open-modal {
 	margin-top: 0;
 	text-shadow: initial;
 	
+}
+
+.flogo{
+  width:400px;
+  height:150px;
+}
+
+.overlay,h1{
+  font-family:'Oswald',sans-serif;
+  font-size:50%;
 }

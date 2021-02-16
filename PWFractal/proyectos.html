@@ -15,23 +15,34 @@
       <!-- Fuentes -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://kit.fontawesome.com/53481785bc.js" crossorigin="anonymous"></script>
-    <title>Proyectos | Fractal DAP </title>
+      <title>:.|  Proyectos | Fractal Creatives Signature.: </title>
 </head>
+<!-- INICIO CODIGO TITULO MOVIMIENTO -->
+<script type="text/JavaScript">
+  var repeat = 1                    // Si ponemos valor 0 sólo se repetirá unavez el movimiento
+  var title = document.title
+  var leng = title.length
+  var start = 1
+  function titlemove()
+  {
+     titl = title.substring(start, leng) + title.substring(0, start)
+     document.title=titl
+     start++
+     if (start==leng+1)
+     {
+        start=0
+        if (repeat==0) return
+     }
+     setTimeout("titlemove()",150)  // 150 es la velocidad de movimiento, se puede ampliar o reducir
+  }
+  if (document.title) titlemove()
+</script>
+<!-- FIN CODIGO TITULO MOVIMIENTO -->
 
-<body class="hidden">
 
-   <div class="centrado" id="onload">
-   <div class="lds-hourglass">
-     <div></div>
-     <div></div>
-     <div></div>
-     <div></div>
-     <div></div>
-     <div></div>
-     <div></div>
-     <div></div>
-   </div>
- </div>
+<body >
+
+ 
  
   
    <!--Navbar QS -->
@@ -73,55 +84,24 @@
     </nav>
   <!--Nvbar Ending -->
 
- <br>
- <br> 
- <br> 
- <br> 
 
- <div class="container-fluid contenedor text-center">
-  <h1 class="text-center">Proyectos</h1>
-  <div class=" container text-center">
-     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto ">
-        <div class="ver_mas text-center">
-           <span  class="fa fa-eye"></span>
-        </div>
-      
-        <article class="text-left">
-           <h2>CASA <br>CHUPICUARA</h2>
-           <h4>Elegancia Minimalista a tu alcance</h4>
-        </article>
-        <a href="/PWFractal/index.html"> <img src="/PWFractal/img/cchupicuara.PNG" alt=""></a>
-        <br>
-     </div>
-     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
-        <div class="ver_mas text-center">
-           <span id="click" class="fa fa-eye"></span>
-        </div>
-        <article class="text-left">
-           <h2>CASA <br>CONTRAFUERTE</h2>
-           <h4>Comodidad Mediterranea con clase</h4>
-        </article>
-        <a href="/PWFractal/index.html"><img src="/PWFractal/img/cfuerte.PNG" alt=""></a>
-     </div>
-     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 container_foto">
-        <div class="ver_mas text-center">
-           <span class="fa fa-eye"></span>
-        </div>
-        <article class="text-left">
-           <h2>CASA<br>PATIO PIRUL</h2>
-           <h4>Emocion para tu familia</h4>
-        </article>
-        <a href="/PWFractal/index.html"><img src="/PWFractal/img/cpirul.jpg" alt=""></a>
-     </div>
-  </div>
-</div>
+   
 
 
-<hr size="5px" width="50%" align="center" color="#00CCFF"/>
 
-<br>  
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 <script src="/PWFractal/js/proyectos.js"></script>
 

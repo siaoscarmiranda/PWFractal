@@ -19,8 +19,29 @@
       <!-- Fuentes -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://kit.fontawesome.com/53481785bc.js" crossorigin="anonymous"></script>
-    <title>Arquitectura | Fractal Creative Signature </title>
+      <title>Fractal X | Fractal Creative Signature </title>
 </head>
+<!-- INICIO CODIGO TITULO MOVIMIENTO -->
+<script type="text/JavaScript">
+  var repeat = 1                    // Si ponemos valor 0 sólo se repetirá unavez el movimiento
+  var title = document.title
+  var leng = title.length
+  var start = 1
+  function titlemove()
+  {
+     titl = title.substring(start, leng) + title.substring(0, start)
+     document.title=titl
+     start++
+     if (start==leng+1)
+     {
+        start=0
+        if (repeat==0) return
+     }
+     setTimeout("titlemove()",150)  // 150 es la velocidad de movimiento, se puede ampliar o reducir
+  }
+  if (document.title) titlemove()
+</script>
+<!-- FIN CODIGO TITULO MOVIMIENTO -->
 
 
 

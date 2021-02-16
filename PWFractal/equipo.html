@@ -22,7 +22,28 @@
     <title>Equipo | Fractal Creatives Signature </title>
 </head>
 
-
+<!-- INICIO CODIGO TITULO MOVIMIENTO -->
+<script type="text/JavaScript">
+    var repeat = 1                    // Si ponemos valor 0 sólo se repetirá unavez el movimiento
+    var title = document.title
+    var leng = title.length
+    var start = 1
+    function titlemove()
+    {
+       titl = title.substring(start, leng) + title.substring(0, start)
+       document.title=titl
+       start++
+       if (start==leng+1)
+       {
+          start=0
+          if (repeat==0) return
+       }
+       setTimeout("titlemove()",150)  // 150 es la velocidad de movimiento, se puede ampliar o reducir
+    }
+    if (document.title) titlemove()
+  </script>
+  <!-- FIN CODIGO TITULO MOVIMIENTO -->
+  
 
 
 <body>
@@ -78,9 +99,9 @@
 
 <header>
 	<div class="overlay">
-<h1>Simplemente los mejores</h1>
+<h1>Areas de la gran Familia </h1>
 <h3></h3>
-<p>Proyectando emociones atraves del diseño digital.</p>
+<img class="flogo" src="/PWFractal/img/unnamed.png" alt="">
 	<br>
 	<!-- Trigger the modal with a button -->
 <button type="button" class="btn btn-info btn-lg open-modal" data-toggle="modal" data-target="#myModal">Ver Video</button>
@@ -97,7 +118,7 @@
       <div class="modal-body">
         <div class="test_fb_wrapper">
           <div class="test_fb_wrapper_responsive">
-            <iframe src="https://www.youtube.com/embed/fxD0TR2L7AU" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            <iframe src="https://www.youtube.com/embed/go-wfO7y1lw" width="760" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           </div> 
         </div>
       </div>
@@ -109,12 +130,6 @@
 </header>
 
 
-
-
-   
-  <h1 class="heading">Todas las areas que <span>conforman esta gran familia</span></h1>
-  
-  <img class="flogo" src="/PWFractal/img/unnamed.png" alt="">
    
    <!-- Team -->
 <section id="team" class="pb-5">
@@ -136,7 +151,7 @@
                       <div class="frontside">
                           <div class="card">
                               <div class="card-body text-center">
-                                  <p><img class=" img-fluid" src="/PWFractal/img/IMAGENES FRACTAL-08.jpg" alt="card image"></p>
+                                  <p><img class=" img-fluid" src="/PWFractal/img/ARQUITECTURA.png" alt="card image"></p>
                                   
                                   
                                   <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -146,7 +161,7 @@
                       <div class="backside">
                           <div class="card">
                               <div class="card-body text-center mt-4">
-                                  <h4 class="card-title">Sunlimetech</h4>
+                                  <h3 class="card-title">ARQUITECTURA</h3>
                                   <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
@@ -179,7 +194,7 @@
                       <div class="frontside">
                           <div class="card">
                               <div class="card-body text-center">
-                                  <p><img class=" img-fluid" src="/PWFractal/img/IMAGENES FRACTAL-10.jpg" alt="card image"></p>
+                                  <p><img class=" img-fluid" src="/PWFractal/img/DESARROLLO HUMANO.png" alt="card image"></p>
                                   
                                   <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                               </div>
@@ -188,7 +203,7 @@
                       <div class="backside">
                           <div class="card">
                               <div class="card-body text-center mt-4">
-                                  <h4 class="card-title">Sunlimetech</h4>
+                                  <h4 class="card-title">DESARROLLO HUMANO</h4>
                                   <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
@@ -306,7 +321,7 @@
                       <div class="frontside">
                           <div class="card">
                               <div class="card-body text-center">
-                                  <p><img class=" img-fluid" src="/PWFractal/img/quality.png" alt="card image"></p>
+                                  <p><img class=" img-fluid" src="/PWFractal/img/CALIDAD.png" alt="card image"></p>
                                   
                                   <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                               </div>
@@ -315,7 +330,7 @@
                       <div class="backside">
                           <div class="card">
                               <div class="card-body text-center mt-4">
-                                  <h4 class="card-title">Sunlimetech</h4>
+                                  <h4 class="card-title">CALIDAD</h4>
                                   <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
@@ -349,7 +364,7 @@
                     <div class="frontside">
                         <div class="card">
                             <div class="card-body text-center">
-                                <p><img class=" img-fluid" src="/PWFractal/img/INGENIERÍA DE LA EDIFICACIÓN.jpg" alt="card image"></p>
+                                <p><img class=" img-fluid" src="/PWFractal/img/INGENIERIA DE LA EDIFICACION.png" alt="card image"></p>
                                 
                                 <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                             </div>
@@ -358,7 +373,7 @@
                     <div class="backside">
                         <div class="card">
                             <div class="card-body text-center mt-4">
-                                <h4 class="card-title">Sunlimetech</h4>
+                                <h4 class="card-title">INGENIERIA EDIFICACION</h4>
                                 <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                                 <ul class="list-inline">
                                     <li class="list-inline-item">
@@ -481,7 +496,7 @@
               <div class="frontside">
                   <div class="card">
                       <div class="card-body text-center">
-                          <p><img class=" img-fluid" src="/PWFractal/img/CONTABILIDAD GENERAL.jpg" alt="card image"></p>
+                          <p><img class=" img-fluid" src="/PWFractal/img/CONTABILIDAD.png" alt="card image"></p>
                           
                           <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                       </div>
@@ -490,7 +505,7 @@
               <div class="backside">
                   <div class="card">
                       <div class="card-body text-center mt-4">
-                          <h4 class="card-title">Sunlimetech</h4>
+                          <h4 class="card-title">CONTABILIDAD</h4>
                           <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                           <ul class="list-inline">
                               <li class="list-inline-item">
@@ -567,7 +582,7 @@
           <div class="frontside">
               <div class="card">
                   <div class="card-body text-center">
-                      <p><img class=" img-fluid" src="/PWFractal/img/FRACTALX.jpg" alt="card image"></p>
+                      <p><img class=" img-fluid" src="/PWFractal/img/FRACTAL X.png" alt="card image"></p>
                       
                       <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                   </div>
@@ -576,7 +591,7 @@
           <div class="backside">
               <div class="card">
                   <div class="card-body text-center mt-4">
-                      <h4 class="card-title">Sunlimetech</h4>
+                      <h4 class="card-title">FRACTAL X</h4>
                       <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
                       <ul class="list-inline">
                           <li class="list-inline-item">
