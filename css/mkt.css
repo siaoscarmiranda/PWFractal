@@ -20,6 +20,10 @@ body {
 
 
 
+.flogo{
+  width:400px;
+  height:150px;
+}
 
 
 
@@ -285,7 +289,7 @@ section .section-title {
 *{padding: 0; margin: 0; box-sizing: border-box;}
 body{height: 900px;}
 header {
-	background: url('https://c0.wallpaperflare.com/preview/276/689/300/mexico-mexico-city-ciudad-de-mexico-people.jpg');
+	background: url('https://mandarinaestudiogt.com/wp-content/uploads/2018/07/photo-1518081461904-9d8f136351c2-820x421.jpg');
 	text-align: center;
 	width: 100%;
 	height: auto;
