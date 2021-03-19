@@ -66,3 +66,8 @@ function doSlide() {
 	slider.querySelector('#my-slider-inner').style.marginLeft = '-' + deltaX + 'px';
 }
 
+
+
+
+
+
